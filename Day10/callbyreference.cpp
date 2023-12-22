@@ -25,4 +25,6 @@ int main()
     int m = increment(n);
     cout << n << endl;
     cout << m << endl;
+
+    
 }
