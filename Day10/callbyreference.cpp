@@ -1,6 +1,12 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int increment(int &n)
+{
+    n++;
+    return n;
+}
+int main()
+{
 
     // int n = 200;
     // cout<<n<<endl;
@@ -14,5 +20,9 @@ int main(){
     // int &c = k;
     // cout<<c<<endl;
 
-
+    int n = 100;
+    cout << n << endl;
+    int m = increment(n);
+    cout << n << endl;
+    cout << m << endl;
 }
