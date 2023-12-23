@@ -35,11 +35,33 @@ using namespace std;
 
 
 
+void firstZero(int arr[] ,  int size){
 
+    int low = 0;
+    int high = size-1;
+
+    for (int  i = 0; i < size; i++)
+    {
+        if(arr[low] == 0){
+            low++;
+        }
+        else{
+            
+        }
+    }
+    
+
+}
 
 
 int main()
 {
+
+
+    int arr[5] = {1,0,0,0,1};
+    int size = 5;
+    firstZero(arr, size);
+
 
 
     // int arr[9] = {1,0,0,0,1,9,5,3,7};
