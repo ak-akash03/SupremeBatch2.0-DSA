@@ -16,8 +16,8 @@ int main()
 {
 
 
+    int arr
 
-    
 
     // int a = fun1(5);
 
