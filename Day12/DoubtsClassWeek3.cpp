@@ -11,12 +11,42 @@ using namespace std;
 //     return c;
 // }
 
+// void firstZero(int arr[] , int size){
+
+//     for (int i = 0; i < size; i++)
+//     {
+//         for (int j = i; j < size; j++)
+//         {
+//             if(arr[i]>arr[j]){
+//                 swap(arr[i], arr[j]);
+//             }
+//         }
+        
+//     }
+    
+
+//     for (int  k = 0; k < size; k++)
+//     {
+//         cout<<arr[k]<<" ";
+//     }
+    
+// }
+
+
+
+
+
+
 
 int main()
 {
 
 
-    int arr
+    // int arr[9] = {1,0,0,0,1,9,5,3,7};
+    // int size = 9;
+    // firstZero(arr, size);
+
+
 
 
     // int a = fun1(5);
@@ -28,5 +58,5 @@ int main()
     // int a = 3.2;
     // cout<<a<<endl;
 
-    return 1;
+    // return 1;
 }
